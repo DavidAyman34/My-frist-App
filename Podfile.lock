@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.1)
+  - HideShowPasswordTextField (0.3)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (4.10.1)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - HideShowPasswordTextField (from `https://github.com/Guidebook/HideShowPasswordTextField`)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - SQLite.swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - SQLite.swift
+
+EXTERNAL SOURCES:
+  HideShowPasswordTextField:
+    :git: https://github.com/Guidebook/HideShowPasswordTextField
+
+CHECKOUT OPTIONS:
+  HideShowPasswordTextField:
+    :commit: d85212236651d141ba387b65edcff9940ab894f3
+    :git: https://github.com/Guidebook/HideShowPasswordTextField
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  HideShowPasswordTextField: 9426177a6b6498a6084e29ad65bba7d1157951b7
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+
+PODFILE CHECKSUM: 012200b3c7ac7bbfb2381c448993d6aa25d3d2f4
+
+COCOAPODS: 1.9.1
