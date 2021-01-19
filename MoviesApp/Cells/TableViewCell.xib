@@ -35,7 +35,6 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="4BT-ft-oYA" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="4Jx-uC-VEa"/>
                     <constraint firstItem="gDY-MT-oly" firstAttribute="leading" secondItem="NSZ-sI-Uea" secondAttribute="trailing" constant="8" id="99g-Zg-BhO"/>
@@ -56,7 +55,7 @@
                 <outlet property="longDescLabel" destination="gDY-MT-oly" id="5Pr-LI-32F"/>
                 <outlet property="nameLabel" destination="4BT-ft-oYA" id="dbd-YU-rwk"/>
             </connections>
-            <point key="canvasLocation" x="241.30434782608697" y="109.82142857142857"/>
+            <point key="canvasLocation" x="2498" y="186"/>
         </tableViewCell>
     </objects>
 </document>

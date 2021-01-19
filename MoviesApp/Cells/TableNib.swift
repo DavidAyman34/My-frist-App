@@ -13,17 +13,28 @@ class TableNib: UITableViewCell {
     @IBOutlet weak var longDescLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var artImageUrl: UIImageView!
+   
+    
     var myMedia = [MediaRsponse]( )
     var dataBase = SQLiteManager( )
     override func awakeFromNib() {
         super.awakeFromNib()
-
-    }
+       animateCell()
     
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         
         // Configure the view for the selected state
+    }
+func animateCell(){
+    let rectionTransform = CATransform3DTranslate(CATransform3DIdentity, -500, 10, 0)
+    self.layer.transform = rectionTransform
+    self.alpha = 0.5
+    UIView.animate(withDuration: 1.2){
+        self.layer.transform = CATransform3DIdentity
+        self.alpha = 1.5
+}
     }
     func configureCell(media: MediaRsponse) {
         let medyaType = media.getType()
@@ -43,4 +54,5 @@ class TableNib: UITableViewCell {
         SQLiteManager.insertTable(artistName: media.artistName ?? "e", artworkUrl100: media.artworkUrl100, trackName: media.trackName ?? "e", longDescription: media.longDescription ?? "e", previewUrl: media.previewUrl ?? "d", kind: media.Kind ?? "h")
     }
 }
+
 

@@ -21,6 +21,7 @@ class MoviesDetil: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        showData()
+        
     }
  
     func play(prev: String){

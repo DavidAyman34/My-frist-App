@@ -12,6 +12,7 @@
 		6F09E0B82448B05300F6D5B2 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F09E0B62448B05300F6D5B2 /* TableViewCell.xib */; };
 		6F0ABCE72422D7EC00CCB311 /*  APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0ABCE62422D7EC00CCB311 /*  APIManager.swift */; };
 		6F114997242A96E5002C41F5 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F114996242A96E5002C41F5 /* Constans.swift */; };
+		6F12596B25B7680900A7143A /* libSQLite.swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F12596A25B7680900A7143A /* libSQLite.swift.a */; };
 		6F1588132423E7250036D793 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1588122423E7250036D793 /* AlertMessage.swift */; };
 		6F475A532432938900E147D9 /* MediaRsponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F475A522432938900E147D9 /* MediaRsponse.swift */; };
 		6F475A55243295D400E147D9 /* ResponseMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F475A54243295D400E147D9 /* ResponseMedia.swift */; };
@@ -29,26 +30,8 @@
 		6FA470E224059F3500A14CB3 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA470E124059F3500A14CB3 /* UserDefaultsManager.swift */; };
 		6FA470E42405A45A00A14CB3 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA470E32405A45A00A14CB3 /* ProfileVC.swift */; };
 		6FAFBE9D245A3EFB00963445 /* SQLiteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFBE9C245A3EFB00963445 /* SQLiteImage.swift */; };
-		6FEA4C8E24364EED00453D1A /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEA4C8D24364EED00453D1A /* SQLite.framework */; };
-		6FEA4C8F24364F3700453D1A /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEA4C8D24364EED00453D1A /* SQLite.framework */; };
-		6FEA4C9024364F3700453D1A /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEA4C8D24364EED00453D1A /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6FEA4C9324365E0B00453D1A /* SQliteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEA4C9224365E0B00453D1A /* SQliteManager.swift */; };
-		B96CF67F6E8AAB3E50564BBA /* libPods-MoviesApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 057AD17331140FA0E0800971 /* libPods-MoviesApp.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6FEA4C9124364F3800453D1A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6FEA4C9024364F3700453D1A /* SQLite.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		057AD17331140FA0E0800971 /* libPods-MoviesApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoviesApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +40,7 @@
 		6F09E0B62448B05300F6D5B2 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		6F0ABCE62422D7EC00CCB311 /*  APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " APIManager.swift"; sourceTree = "<group>"; };
 		6F114996242A96E5002C41F5 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		6F12596A25B7680900A7143A /* libSQLite.swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSQLite.swift.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1588122423E7250036D793 /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
 		6F475A522432938900E147D9 /* MediaRsponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRsponse.swift; sourceTree = "<group>"; };
 		6F475A54243295D400E147D9 /* ResponseMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMedia.swift; sourceTree = "<group>"; };
@@ -87,9 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FEA4C8E24364EED00453D1A /* SQLite.framework in Frameworks */,
-				B96CF67F6E8AAB3E50564BBA /* libPods-MoviesApp.a in Frameworks */,
-				6FEA4C8F24364F3700453D1A /* SQLite.framework in Frameworks */,
+				6F12596B25B7680900A7143A /* libSQLite.swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +227,7 @@
 		F0D42C4503620FF79289681C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F12596A25B7680900A7143A /* libSQLite.swift.a */,
 				6FEA4C8D24364EED00453D1A /* SQLite.framework */,
 				057AD17331140FA0E0800971 /* libPods-MoviesApp.a */,
 			);
@@ -262,7 +245,6 @@
 				6FA470BD2405808700A14CB3 /* Sources */,
 				6FA470BE2405808700A14CB3 /* Frameworks */,
 				6FA470BF2405808700A14CB3 /* Resources */,
-				6FEA4C9124364F3800453D1A /* Embed Frameworks */,
 				81B2B360A2256D64AAFE60AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -281,7 +263,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Divo Ayman";
 				TargetAttributes = {
 					6FA470C02405808700A14CB3 = {

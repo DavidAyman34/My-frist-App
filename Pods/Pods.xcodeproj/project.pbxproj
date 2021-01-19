@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,7 +20,6 @@
 		1AB820570CC2D364B5ACCF78A0833A1A /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F596AE477600DA24448C04A2456D444 /* ImageDownloader.swift */; };
 		1FFB28D21A0D19841A5B802D25D5CBA9 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F59CAFB2F16074A4BE149E57719E64 /* SQLite.swift-dummy.m */; };
 		2113BA9DC2043F97906DC470F8D8C601 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE57C3C825AD4164D846CA62F836B70 /* String+MD5.swift */; };
-		262B65CAB98FEA1CF84150C59E7AB986 /* Pods-MoviesApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6A0AB3579AE4E8588A3EE6768FEC31 /* Pods-MoviesApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		27229A7A1286323E99B7A4FD12CD3D56 /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA0817213EACB52D0582A3EA2223A4 /* CacheSerializer.swift */; };
 		2AD3C6DE9778DB2972EEB9C40191D4A1 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA5E33BBCB8210AA09162B6836EA12 /* CustomFunctions.swift */; };
 		2C9E5D110BA025DA9E9F59D5AC00E164 /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A718FF7E8B7D20246805F98B7EF4D665 /* Placeholder.swift */; };
@@ -28,6 +27,7 @@
 		304143B2D528AECF9B506ECD2DEA6920 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF3E0C762F3ABBFA74D4370E9FA19C7 /* IQInvocation.swift */; };
 		31AF5AEBD5B1E7D9BA13C33DA9CAC6EF /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D524D197020C307E9EBD3ADF28DFCF8 /* Helpers.swift */; };
 		36CB8F5ACE8E731E3A7203C7612E9C21 /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF61FAB2587148292B5136FF1A7AADA1 /* RequestModifier.swift */; };
+		384DCE87ED68D9F4CFFF2C223B223DF4 /* Pods-MoviesApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D267BD1ECC3A6FE5EFD8D4030DE1547 /* Pods-MoviesApp-dummy.m */; };
 		38D38A1A8FF5F6D69E0B0392A81349AA /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC27E89A2FB786CBE00FE1781D41FEA /* Setter.swift */; };
 		391512EAF0E5324171CDABDDE341960B /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66C0783A1D046781EF7C2AB50BC3CBB /* Connection.swift */; };
 		3E24F37289624C75C60EE7102102EF70 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5F0F7007F1C57EAF94D347A54D3CF7 /* Errors.swift */; };
@@ -41,6 +41,7 @@
 		5405D125C64322B5C60058DCC9580248 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554563642488CB2E1D9C9D5DA5C50A72 /* Collation.swift */; };
 		54B93A2B3C12100A142BF405958CBECA /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF96CEE4515B0D142A18590FC2EE3E /* IQKeyboardReturnKeyHandler.swift */; };
 		58670BDA59BC1476ECD1AE42A65DEDB4 /* SQLiteObjc.h in Headers */ = {isa = PBXBuildFile; fileRef = F787E1A70392A9A12D64D3423722038A /* SQLiteObjc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59125AC917ADD43D3350FA292103473F /* Pods-MoviesApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6A0AB3579AE4E8588A3EE6768FEC31 /* Pods-MoviesApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5EC54723165E0F3ABFCCCF37A84F9ABE /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FA41B59A06E5D054A7A7AB4988DC9F /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		620BB858B2C1FEFA08AD056EBC72D292 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2AE00706A51054DC416B90B512406D /* ImageTransition.swift */; };
 		626863FBB1F3C943ACB548FFB7A85E8C /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7123842D81777CFAEC06E61D76D1CF6 /* Timeline.swift */; };
@@ -92,7 +93,6 @@
 		D8F6B32F6E761A560319B19086DD3C29 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C9F3A232AA85A0507DE6847FE332FA /* Coding.swift */; };
 		DB5891014AF5583F4CE70D67063FEBF4 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF0EB16E432E25DBB9F4C86FE3E25A9 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DE183A545F69B57F4508037715246C94 /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F513EC25C331DBF434B53FA9EB71CC /* FormatIndicatedCacheSerializer.swift */; };
-		DEBE80554FF70D9D17FB4A56061CC4ED /* Pods-MoviesApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D267BD1ECC3A6FE5EFD8D4030DE1547 /* Pods-MoviesApp-dummy.m */; };
 		E1D9E370AB47EA2E5FD274DFCB1E3252 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2304E72E889EBDEE44F0320A1ECD5827 /* IQKeyboardManagerSwift-dummy.m */; };
 		E685E74EA71073216B685949FF3DD4F4 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06189886F907B0891ED8D44966B6B02B /* IQKeyboardManagerConstantsInternal.swift */; };
 		E95D0E62EDDF0278851D054E96529437 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E3F04F3949283F52784ADC6C77105 /* IQKeyboardManagerConstants.swift */; };
@@ -106,40 +106,40 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		085D400ABF367C0267ED1AC6F0ACEB9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
-			remoteInfo = IQKeyboardManagerSwift;
-		};
-		2E218600FE96A220B5D037F9DA45137B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
-			remoteInfo = SQLite.swift;
-		};
-		6CC6E4253C164D06F37680D056BB4DF5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		70B0C8379F980DD3B30AD096CB227BF6 /* PBXContainerItemProxy */ = {
+		130A2C49C33B7550B3B15C08BA228FC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
 			remoteInfo = Kingfisher;
 		};
-		AC5F9E29C2846D98EF3AD20B369B1231 /* PBXContainerItemProxy */ = {
+		B0C8DE934272981375C1BFD5C7F7E888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		BF44EBE86F29D290EF68CD4EE4318BC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 22F9848403CA060219D1B8D0577A666A;
 			remoteInfo = HideShowPasswordTextField;
+		};
+		BFBC4B9C82991B7AD2D1709E24725D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		DCC742E660E9365B0B1DD42E4C1E7582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F2C1776D90B62B156DB52C41A5C419C;
+			remoteInfo = SQLite.swift;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -299,7 +299,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		571AC4BB90D37F0D1EB9E5AE4AC41CF3 /* Frameworks */ = {
+		5C4744A35A03B0AF31E3E3D1ABA09C2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -632,14 +632,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4060FD0E7DA4A1EA2BD8F02DB6B70AEE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				262B65CAB98FEA1CF84150C59E7AB986 /* Pods-MoviesApp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		80D32F4C635737DCE69231BF549975FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -673,6 +665,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CF692BD464C27BA082BE1DCA7A9D45C /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD70DBC1EDC56B04D6AC074A0ECD9B12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59125AC917ADD43D3350FA292103473F /* Pods-MoviesApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -717,20 +717,20 @@
 		};
 		A6ED3C6F3B47F68C10096C89053A250C /* Pods-MoviesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B6595C272B7F7246B341F3C71FCE965 /* Build configuration list for PBXNativeTarget "Pods-MoviesApp" */;
+			buildConfigurationList = 8856B982AB19A7912CBA701501C962A4 /* Build configuration list for PBXNativeTarget "Pods-MoviesApp" */;
 			buildPhases = (
-				4060FD0E7DA4A1EA2BD8F02DB6B70AEE /* Headers */,
-				A97A38365AE4B5A5200041508F775A2A /* Sources */,
-				571AC4BB90D37F0D1EB9E5AE4AC41CF3 /* Frameworks */,
+				DD70DBC1EDC56B04D6AC074A0ECD9B12 /* Headers */,
+				C55EA602260E224694B2EE1415804237 /* Sources */,
+				5C4744A35A03B0AF31E3E3D1ABA09C2E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7E82035681C83EB71B6B05CDBC168CFE /* PBXTargetDependency */,
-				78E13722DE7FED586A24F425366CA2C2 /* PBXTargetDependency */,
-				F9BC15CEA50E613EDD4BEBFAC3678558 /* PBXTargetDependency */,
-				22F42827CC23B4CE143CD1526C6FEB3E /* PBXTargetDependency */,
-				7D7887814C9A60EED4D92D08A9C191DE /* PBXTargetDependency */,
+				D28F8F744109086C82E45FF87B3284E6 /* PBXTargetDependency */,
+				AFAD234656EF24079770F8D75A5EF6C9 /* PBXTargetDependency */,
+				268AA72120A269901F7E504CB67860EA /* PBXTargetDependency */,
+				41D2D82D1705AA7CBB92C359E320F7A3 /* PBXTargetDependency */,
+				52B871462F11CF7AD585755EDE0804D2 /* PBXTargetDependency */,
 			);
 			name = "Pods-MoviesApp";
 			productName = "Pods-MoviesApp";
@@ -801,7 +801,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1018,14 +1018,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A97A38365AE4B5A5200041508F775A2A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEBE80554FF70D9D17FB4A56061CC4ED /* Pods-MoviesApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ADA8A824FC0DF194C0EEA41A4A09871D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1048,6 +1040,14 @@
 				B422DCB989FF675D287C579D280F8253 /* TaskDelegate.swift in Sources */,
 				626863FBB1F3C943ACB548FFB7A85E8C /* Timeline.swift in Sources */,
 				3E82C4D5935E02D385D773C59D424ADD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55EA602260E224694B2EE1415804237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384DCE87ED68D9F4CFFF2C223B223DF4 /* Pods-MoviesApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1078,35 +1078,35 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22F42827CC23B4CE143CD1526C6FEB3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = 70B0C8379F980DD3B30AD096CB227BF6 /* PBXContainerItemProxy */;
-		};
-		78E13722DE7FED586A24F425366CA2C2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HideShowPasswordTextField;
-			target = 22F9848403CA060219D1B8D0577A666A /* HideShowPasswordTextField */;
-			targetProxy = AC5F9E29C2846D98EF3AD20B369B1231 /* PBXContainerItemProxy */;
-		};
-		7D7887814C9A60EED4D92D08A9C191DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLite.swift;
-			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
-			targetProxy = 2E218600FE96A220B5D037F9DA45137B /* PBXContainerItemProxy */;
-		};
-		7E82035681C83EB71B6B05CDBC168CFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 6CC6E4253C164D06F37680D056BB4DF5 /* PBXContainerItemProxy */;
-		};
-		F9BC15CEA50E613EDD4BEBFAC3678558 /* PBXTargetDependency */ = {
+		268AA72120A269901F7E504CB67860EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = IQKeyboardManagerSwift;
 			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = 085D400ABF367C0267ED1AC6F0ACEB9C /* PBXContainerItemProxy */;
+			targetProxy = BFBC4B9C82991B7AD2D1709E24725D3E /* PBXContainerItemProxy */;
+		};
+		41D2D82D1705AA7CBB92C359E320F7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
+			targetProxy = 130A2C49C33B7550B3B15C08BA228FC8 /* PBXContainerItemProxy */;
+		};
+		52B871462F11CF7AD585755EDE0804D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 3F2C1776D90B62B156DB52C41A5C419C /* SQLite.swift */;
+			targetProxy = DCC742E660E9365B0B1DD42E4C1E7582 /* PBXContainerItemProxy */;
+		};
+		AFAD234656EF24079770F8D75A5EF6C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HideShowPasswordTextField;
+			target = 22F9848403CA060219D1B8D0577A666A /* HideShowPasswordTextField */;
+			targetProxy = BF44EBE86F29D290EF68CD4EE4318BC4 /* PBXContainerItemProxy */;
+		};
+		D28F8F744109086C82E45FF87B3284E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = B0C8DE934272981375C1BFD5C7F7E888 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1132,29 +1132,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		22196FC8327F225155D9302643A2A395 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD31EA6A41F35FFD2DE94AE04AF7BE42 /* Pods-MoviesApp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MoviesApp/Pods-MoviesApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1287,28 +1264,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		64444C3F03BC2D0643BAA8F30B4E7F7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D3D10DEFD196EDD4ACD74A477256C31 /* Pods-MoviesApp.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MoviesApp/Pods-MoviesApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1460,6 +1415,28 @@
 			};
 			name = Release;
 		};
+		C858FDA4EA3C87D3AAAD8C41FEAC55D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3D10DEFD196EDD4ACD74A477256C31 /* Pods-MoviesApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesApp/Pods-MoviesApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		D59DD1855A6C812356DCFAFF0013E542 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB98941FD2208490FE8F53CB6A3E3DDD /* Kingfisher.debug.xcconfig */;
@@ -1510,6 +1487,29 @@
 			};
 			name = Debug;
 		};
+		F60D595796BFA81B8E1631529B071F3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD31EA6A41F35FFD2DE94AE04AF7BE42 /* Pods-MoviesApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoviesApp/Pods-MoviesApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		FB3B2CCF85562508602D8AA4B0EA7E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F14F22B3C743AC0941DC10C583070F5 /* HideShowPasswordTextField.debug.xcconfig */;
@@ -1547,15 +1547,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B6595C272B7F7246B341F3C71FCE965 /* Build configuration list for PBXNativeTarget "Pods-MoviesApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64444C3F03BC2D0643BAA8F30B4E7F7E /* Debug */,
-				22196FC8327F225155D9302643A2A395 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		20F50134A7EBE5BBF644BED665FB3400 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1588,6 +1579,15 @@
 			buildConfigurations = (
 				FB3B2CCF85562508602D8AA4B0EA7E2B /* Debug */,
 				2BED70789F2C3A90BADBD1C743090B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8856B982AB19A7912CBA701501C962A4 /* Build configuration list for PBXNativeTarget "Pods-MoviesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C858FDA4EA3C87D3AAAD8C41FEAC55D1 /* Debug */,
+				F60D595796BFA81B8E1631529B071F3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

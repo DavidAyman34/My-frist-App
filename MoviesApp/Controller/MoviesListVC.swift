@@ -33,6 +33,7 @@ class MoviesListVC: UIViewController {
         SQLiteManager.openDataBase()
         SQLiteManager.createTable()
         historyData()
+        tableview.tableFooterView = UIView()
     }
     func historyData( ){
         let result = SQLiteManager.returnDataSaved()
@@ -69,6 +70,12 @@ class MoviesListVC: UIViewController {
     }
     @IBAction func goSearch(_ sender: UIButton) {
         bindData()
+      searchBar.resignFirstResponder()
+      
+    }
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar){
+        bindData()
+        searchBar.endEditing(true)
     }
     @IBAction func deleteHistoryBtn(_ sender: Any) {
         let  alertError = UIAlertController(title: "Clear", message: "Do you wanna clear History" , preferredStyle: .alert)
@@ -89,7 +96,7 @@ extension MoviesListVC: UITableViewDataSource, UITableViewDelegate,UISearchBarDe
         return myMedia.count
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 210
+        return 130
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let MoviesDetil = UIStoryboard.init(name:Storybords.main, bundle: nil).instantiateViewController(withIdentifier: "MoviesDetil") as! MoviesDetil
@@ -100,7 +107,10 @@ extension MoviesListVC: UITableViewDataSource, UITableViewDelegate,UISearchBarDe
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: Cells.cellIdentifier , for: indexPath)  as! TableNib
         cell.configureCell(media: myMedia[indexPath.row])
+        cell.animateCell()
         return cell
     }
+    
+    
 }
 

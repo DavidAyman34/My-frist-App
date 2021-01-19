@@ -8,5 +8,6 @@ pod 'IQKeyboardManagerSwift'
 pod 'Alamofire'
 pod 'Kingfisher'
 pod 'SQLite.swift'
+pod 'SQLite.swift', '~> 0.12.0'
 pod 'HideShowPasswordTextField', :git => 'https://github.com/Guidebook/HideShowPasswordTextField'
 end

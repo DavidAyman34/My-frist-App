@@ -13,6 +13,7 @@ DEPENDENCIES:
   - IQKeyboardManagerSwift
   - Kingfisher
   - SQLite.swift
+  - SQLite.swift (~> 0.12.0)
 
 SPEC REPOS:
   trunk:
@@ -37,6 +38,6 @@ SPEC CHECKSUMS:
   Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
 
-PODFILE CHECKSUM: 012200b3c7ac7bbfb2381c448993d6aa25d3d2f4
+PODFILE CHECKSUM: 14b3aa511c2a4ee0d581ecf74fe22fe3ce0670a0
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
